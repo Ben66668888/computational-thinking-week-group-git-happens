@@ -7,7 +7,7 @@
 # Algorithm: take the day of the week for the given date and return it as the
 # single Japanese kanji used for that weekday:
 #   Mon 月 / Tue 火 / Wed 水 / Thu 木 / Fri 金 / Sat 土 / Sun 日
-#
+#--> Algorithm is based of the calendar to see the date
 # Verified against the station observations (recorded here in English):
 #   2023-08-05 -> Sat (土)
 #   2023-10-30 -> Mon (月)
