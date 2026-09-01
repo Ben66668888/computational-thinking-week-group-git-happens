@@ -3,7 +3,7 @@
 # Observed at the station:
 #   input  type: str  (a name, e.g. 'Maliah')
 #   output type: int
-#
+# Counting the vowels in the name
 # TODO: replace the sample observations below with what you see at the station,
 #       then work out the rule that maps input -> output.
 
@@ -11,6 +11,9 @@
 OBSERVATIONS = [
     ("Nicolas", 3),
     ("Sara", 2),
+    ("Eliana", 4),
+    ("Ester", 1),
+    ("Tom", 6),
 ]
 
 
