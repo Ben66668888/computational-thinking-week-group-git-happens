@@ -1,9 +1,3 @@
-
-def solution_station_6(station6_input: int) -> float:
-    """Decipher the Station 6 algorithm and return its float output."""
-    raise NotImplementedError("Station 6 algorithm not deciphered yet")
-
-
 import math
 
 OBSERVATIONS = [
