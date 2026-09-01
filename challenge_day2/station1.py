@@ -32,3 +32,6 @@ def solution_station_1(station1_input: int) -> int:
     for _ in range(station1_input):
         a, b = b, a + b
     return a
+
+
+print(word)
