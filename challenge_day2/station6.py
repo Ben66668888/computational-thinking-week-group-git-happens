@@ -1,4 +1,5 @@
 import math
+#applying trigonometric function in sin, and outcome as angel of radius
 
 OBSERVATIONS = [
     (39, 0.9638),

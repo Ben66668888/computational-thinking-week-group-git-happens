@@ -4,6 +4,9 @@
 #   input type: str (e.g. "b+c*e+a")
 #   output type: float
 #
+# Parse and evaluate an arithmetic expression given as a string, 
+# with variables bound to fixed values — a tiny expression interpreter
+#
 # Algorithm: Evaluate algebraic expression with fixed variable values:
 #   a = 3, b = -1, c = 4, d = 7, e = 0.5
 
