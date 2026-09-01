@@ -9,10 +9,17 @@
 
 # (input, expected_output) pairs copied from the station
 OBSERVATIONS = [
-    # ('Maliah', 0),
+    ("Nicolas", 3),
+    ("Sara", 2),
 ]
 
 
 def solution_station_5(station5_input: str) -> int:
-    """Decipher the Station 5 algorithm and return its integer output."""
-    raise NotImplementedError("Station 5 algorithm not deciphered yet")
+    vowels = "aeiou"
+    return sum(1 for char in station5_input.lower() if char in vowels)
+
+
+# Test the observations
+for name, expected in OBSERVATIONS:
+    result = solution_station_5(name)
+    print(name, "->", result, "(expected:", expected, ")")
