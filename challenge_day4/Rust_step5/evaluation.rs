@@ -14,7 +14,8 @@ fn main() -> io::Result<()> {
         .create(true)
         .open("data6.txt")?;
     
-    for (indexing, line) in reader.lines().enumerate() {
+    for (index, line) in reader.lines().enumerate() {
+        // Index was decleared, renamed the loop variable to index to match header check
         let line = line?;
         
         if index == 0 {

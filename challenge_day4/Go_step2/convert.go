@@ -10,6 +10,7 @@ import (
 
 type Person struct {
 	Name           string `json:"name"`
+	// Techincal methods --> skills
 	TechnicalSkills float64    `json:"Technical Skills"`
 	SoftSkills      float64    `json:"Soft Skills"`
 	BusinessSkills  float64    `json:"Business Skills"`
@@ -78,3 +79,6 @@ func main() {
 		}
 	}
 }
+
+
+
