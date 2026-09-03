@@ -24,7 +24,8 @@ for(col_name in names(people_df)) {
 }
 
 # Replace the 'people' list in the original data with the modified data frame
-json_data$people <- person_df
+json_data$people <- people_df
+# person_df was never defined, it was a typo error. So I have changed it to people_df
 
 # Convert the updated data back to JSON format
 json_text <- toJSON(json_data, pretty = TRUE)
